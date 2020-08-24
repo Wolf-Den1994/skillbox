@@ -1,5 +1,5 @@
 body {
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: "Roboto", Arial, Helvetica, sans-serif;
    background-color: #fbfbfb;
 }
 .header {
@@ -63,8 +63,8 @@ body {
 }
 .name {
    color: #1f1f24;
-   font-size: 60px;
-   font-weight: 700;
+   font-size: 64px;
+   font-weight: 900;
    margin: 0 0 15px;
 }
 .profession {
@@ -86,36 +86,37 @@ body {
 }
 
 /* main */
-.main{
-  margin-bottom: 215px;
+.main {
+   margin-bottom: 215px;
 }
-.do{
-  color: #262626;
-  font-size: 40px;
-  text-align: center;
-  margin: 0 0 100px;
+.do {
+   color: #262626;
+   font-size: 40px;
+   font-weight: 900;
+   text-align: center;
+   margin: 0 0 100px;
 }
-.blocks{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 100px;
+.blocks {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 100px;
 }
-.block{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 260px;
+.block {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 260px;
 }
-.text{
-  color: #8993ad;
-  text-align: center;
-  line-height: 24px;
-  margin: 20px 0 0;
+.text {
+   color: #8993ad;
+   text-align: center;
+   line-height: 24px;
+   margin: 20px 0 0;
 }
-.cost{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cost {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .cost-button {
    background-color: #ff4e2e;
