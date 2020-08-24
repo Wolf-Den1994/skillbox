@@ -1,0 +1,131 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #fbfbfb;
+}
+.header {
+   margin-bottom: 105px;
+}
+.container {
+   width: 1100px;
+   margin: 0 auto;
+   padding: 0 100px;
+}
+.menu-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+}
+.menu {
+   display: flex;
+}
+.nav-link {
+   color: #1f1f24;
+   text-decoration: none;
+   margin-right: 40px;
+}
+.nav-link:hover,
+.active {
+   color: #fc557c;
+   text-decoration: underline;
+}
+.phone-container {
+   display: flex;
+   align-items: center;
+}
+.phone {
+   font-size: 20px;
+   font-weight: bold;
+   margin-right: 30px;
+}
+.order-call {
+   border: 1px solid #fc557c;
+   background-color: white;
+   color: #fc557c;
+   padding: 12px 40px;
+   cursor: pointer;
+}
+.order-call:hover {
+   background-color: rgb(230, 214, 214);
+   border: 1px solid #ff4e2e;
+   color: #ff4e2e;
+}
+.title-container {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   height: 650px;
+   justify-content: center;
+   background-image: url(../img/photo.png);
+   background-repeat: no-repeat;
+   background-position: 470px bottom;
+}
+.name {
+   color: #1f1f24;
+   font-size: 60px;
+   font-weight: 700;
+   margin: 0 0 15px;
+}
+.profession {
+   color: #8993ad;
+   font-size: 24px;
+   font-weight: normal;
+}
+.learn-more {
+   background-color: #ff4e2e;
+   color: white;
+   border: 1px solid #ff4e2e;
+   padding: 18px 72px;
+   font-size: 17px;
+   cursor: pointer;
+}
+.learn-more:hover {
+   background-color: #b44c39;
+   border: 1px solid transparent;
+}
+
+/* main */
+.main{
+  margin-bottom: 215px;
+}
+.do{
+  color: #262626;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 100px;
+}
+.blocks{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;
+}
+.text{
+  color: #8993ad;
+  text-align: center;
+  line-height: 24px;
+  margin: 20px 0 0;
+}
+.cost{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cost-button {
+   background-color: #ff4e2e;
+   color: white;
+   border: 1px solid #ff4e2e;
+   padding: 18px 72px;
+   font-size: 17px;
+   cursor: pointer;
+}
+.cost-button:hover {
+   background-color: #b44c39;
+   border: 1px solid transparent;
+}
