@@ -6,8 +6,32 @@
       <title>Skillbox</title>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
       <link rel="stylesheet" href="./css/style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="./js/main.js"></script>
    </head>
    <body>
+      <div class="form-layout">
+         <form class="order-form">
+            <a href="#" class="close-button"></a>
+            <h4>Оставьте заявку</h4>
+            <label>
+               Имя:
+               <input type="text" name="name">
+            </label>
+            <label>
+               Телефон:
+               <input type="text" name="phone">
+            </label>
+            <label>
+               E-mail:
+               <input type="email" name="email">
+            </label>
+            <div class="button-container">
+               <button class="orange-button">Отправить</button>
+            </div>
+         </form>
+      </div>
+      </form>
       <header class="header">
          <div class="container first-section">
             <div class="menu-container">
@@ -18,7 +42,7 @@
                </nav>
                <div class="phone-container">
                   <span class="phone">+7 (499) 999-55-77</span>
-                  <button class="order-call">Заказать звонок</button>
+                  <button class="order-call show-order-form">Заказать звонок</button>
                </div>
             </div>
             <div class="title-container">
